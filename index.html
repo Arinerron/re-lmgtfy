@@ -37,6 +37,8 @@
         <input class="center" type="text" id="search" />
       </form>
       <script>
+        document.getElementById('lmgtfy').ondragstart = function() { return false; };
+        
         var url = window.location.pathname;
         var id = url.substring(url.lastIndexOf('/') + 1);
         

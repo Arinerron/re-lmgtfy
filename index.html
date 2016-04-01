@@ -1,15 +1,15 @@
 <center>
-    What do you want it to Google search?<br>
+    <div id="tut">What do you want it to Google search?</div><br>
     <input type="text" id="googlehere"><br><br>
-    Your URL is:
+    <div id="tut">Your URL is:</div>
     <br>
     <input type="text" id="urlhere">
     <script>
         document.getElementById("googlehere").onkeyup = function() {
            if(this.value.length != 0) {
-               document.getElementById("urlhere").value = "http://arinerron.github.io/re-lmgtfy/?q=" + encodeURIComponent(this.value);
+               document.getElementById("urlhere").value = "http://arinerron.github.io/re-lmgtfy/go.html?q=" + encodeURIComponent(this.value);
            } else {
-               document.getElementById("urlhere").value = "Enter a url above...";
+               document.getElementById("urlhere").value = "";
            }
            //document.getElementById("urlhere").value = this.value;  
         }

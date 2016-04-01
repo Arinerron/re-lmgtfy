@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html>
   <head>
     <title>re-lmgtfy</title>
@@ -11,13 +12,16 @@
         font-size: 175%;
         text-align: left;
       }
+      
+      .center {
+        margin: auto;
+      }
     </style>
   </head>
   <body>
-    <center>
       <form>
-        <img id="lmgtfy" src="http://www.tothepc.com/pic/letme-google-thatforyou-1121.gif" alt="Let Me Google That For You"><br>
-        <input type="text" id="search" />
+        <img class="center" id="lmgtfy" src="http://www.tothepc.com/pic/letme-google-thatforyou-1121.gif" alt="Let Me Google That For You"><br>
+        <input class="center" type="text" id="search" />
       </form>
       <script>
         var url = window.location.pathname;
@@ -29,6 +33,5 @@
           
         }
       </script>
-    </center>
   </body>
 </html>

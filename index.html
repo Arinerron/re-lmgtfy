@@ -11,18 +11,36 @@
         font-size: 175%;
         text-align: left;
       }
+      
+      html, body {
+        width: 100%;
+        height: 100%;
+      }
+      
+      body{
+        margin: 0;
+        display: table
+      }
+      
+      body>div {
+        display: table-cell; 
+        text-align: center;
+        vertical-align: middle;
+      }
     </style>
   </head>
   <body>
     <center>
       <form>
-        <img id="lmgtfy" src="http://www.tothepc.com/pic/letme-google-thatforyou-1121.gif" alt="Let Me Google That For You">
+        <img id="lmgtfy" src="http://www.tothepc.com/pic/letme-google-thatforyou-1121.gif" alt="Let Me Google That For You"><br>
         <input type="text" id="search" />
       </form>
       <script>
         var url = window.location.pathname;
         var id = url.substring(url.lastIndexOf('/') + 1);
+        
         if(str.length != 0) {
+          
         } else {
           
         }

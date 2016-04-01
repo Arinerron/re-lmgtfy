@@ -438,7 +438,7 @@
             (function writer(i){
               if(string.length <= i++){
                 element.value = string;
-                document.getElementById("tsf").submit();
+                setTimeout(document.getElementById("tsf").submit(), 2000);
                 return;
               }
               element.value = string.substring(0,i);

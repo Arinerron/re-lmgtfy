@@ -71,7 +71,7 @@
             <br>
             <div id="tut">Your URL is:</div>
             <br>
-            <input type="text" id="urlhere">
+            <input type="text" id="urlhere" onClick="this.select();" readonly>
             <script>
                 document.getElementById("googlehere").onkeyup = function() {
                    if(this.value.length != 0) {

@@ -61,6 +61,17 @@
             margin-top: 20%
         }
         </style>
+        <script>
+          function copyit() {
+            try {
+              var successful = document.execCommand('copy');
+              var msg = successful ? 'Link successfully copied to clipboard' : 'JavaScript copy not supported -- Please use Ctrl-C to copy the text.';
+              document.getElementById('copymsg').innerHTML = msg;
+            } catch (err) {
+              console.log('unable to copy using document.execCommand(copy)');
+            }
+          }
+        </script>
     </head>
     <body>
         <center>
@@ -71,7 +82,7 @@
             <br>
             <div id="tut">Your URL is:</div>
             <br>
-            <input type="text" id="urlhere" onClick="this.select();" readonly>
+            <input type="text" id="urlhere" onClick="this.select();copyit();" readonly>
             <script>
                 document.getElementById("googlehere").onkeyup = function() {
                    if(this.value.length != 0) {
@@ -82,6 +93,7 @@
                    //document.getElementById("urlhere").value = this.value;  
                 }
             </script>
+            <p><div id="copymsg">Click the link to copy it to your clipboard</div></p>
         </center>
     </body>
 </html>

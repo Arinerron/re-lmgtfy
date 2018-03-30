@@ -1,6 +1,16 @@
+<!DOCTYPE html>
 <html>
-    <head>
-        <title>re-lmgtfy generator</title>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link  rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" /><link  rel="stylesheet" href="/style/bootstrap-rtl.css" /><link  rel="stylesheet" href="http://fonts.googleapis.com/earlyaccess/droidarabicnaskh.css" /><link  rel="stylesheet" href="/style/style.css" />
+
+  
+
+  
+    <meta name="generator" content="DocPad v6.79.4" />
+        <title>بذار من برات گوگلش کنم</title>
         <style>
         #googlehere {
             width: 90%;
@@ -75,25 +85,25 @@
     </head>
     <body>
         <center>
-            <div id="tut">What do you want it to Google search?</div>
+            <div id="tut">چیزی که می خواین گوگل بشه</div>
             <br>
             <input type="text" id="googlehere">
             <br>
             <br>
-            <div id="tut">Your URL is:</div>
+            <div id="tut">اینو براش بفرستین</div>
             <br>
             <input type="text" id="urlhere" onClick="this.select();copyit();" readonly>
             <script>
                 document.getElementById("googlehere").onkeyup = function() {
                    if(this.value.length != 0) {
-                       document.getElementById("urlhere").value = "http://re-lmgtfy.com/go.html?q=" + encodeURIComponent(this.value);
+                       document.getElementById("urlhere").value = "http://bmbgk.ir/go.html?q=" + encodeURIComponent(this.value);
                    } else {
                        document.getElementById("urlhere").value = "";
                    }
                    //document.getElementById("urlhere").value = this.value;  
                 }
             </script>
-            <p><div id="copymsg">Click the link to copy it to your clipboard</div></p>
+            <p><div id="copymsg">روی لینک کلیک کنین تا کپی بشه</div></p>
         </center>
     </body>
 </html>

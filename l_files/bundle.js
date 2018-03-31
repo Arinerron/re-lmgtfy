@@ -447,7 +447,7 @@ $(function(){
     function redirect(){
       if ($.getQueryString({ id: "debug" })) return;
 
-      var google = "http://google.com/?q=";
+      var google = "http://google.com/search?q=";
       if (button.attr("id") == $("#lucky").attr("id")) {
         google = "http://www.google.com/search?hl=en&btnI=I%27m+Feeling+Lucky&pws=0&q=";
       }

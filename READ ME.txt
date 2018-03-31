@@ -1,0 +1,7 @@
+To use this script, upload the 'index.php' file and the 'l_files' folder on a web host. make sure they are in the same folder.
+
+Next, navigate to where the 'index.php' is. (Example, 'http://yoursitehere.com/LMGTFY/index.php')
+
+That's it, enjoy your script!
+
+Uploaded By www.scripts-clones.blogspot.com

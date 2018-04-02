@@ -258,7 +258,11 @@ a.link_button:hover {
     font-family: Sahel;
 }
 
-.tooltip button{
+.tooltip button {
+    font-family: Sahel;
+}
+
+button {
     font-family: Sahel;
 }
 

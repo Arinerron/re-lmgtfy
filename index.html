@@ -1,5 +1,5 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en">
+<!DOCTYPE html>
+<html>
 
 <head>
   <!-- Global site tag (gtag.js) - Google Analytics -->
@@ -34,7 +34,6 @@
   <script src="js/clipboard.js" type="text/javascript"></script>
 
   <link rel="stylesheet" href="l_files/style.css" type="text/css" media="screen" title="stylesheet" />
-
 </head>
 
 <body>
@@ -70,13 +69,14 @@
   </center>
   <div id="link_placeholder"></div>
   <div id="link">
-    <input class="link copyable" readonly="readonly" id="myInput" type="text"/>
+    <input class="link copyable" readonly="readonly" id="myInput" type="text" />
     <div class="tooltip">
       <button onclick="myFunction()" onmouseout="outFunc()">
         <span class="tooltiptext" id="myTooltip">کپی در کلیپبورد</span>
         کپی کردن آدرس
       </button>
     </div>
+    <button onclick="openInNewTab()">برو به این لینک</button>
     <!-- <div id="link_message"></div>
     <div id="link_buttons">
       <a class="link_button" id="copy" href="/#" rel="localize[link.copy]">کپی</a>

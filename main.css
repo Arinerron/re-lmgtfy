@@ -1,0 +1,13 @@
+html body {
+    font-family: Shabnam;
+
+}
+
+.background {
+    background-image: repeating-linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
+}
+
+.fill { 
+    min-height: 100%;
+    height: 100%;
+}

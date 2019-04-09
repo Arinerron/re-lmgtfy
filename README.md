@@ -7,7 +7,7 @@ originally forked from re-lmgtfy but commpletely replace by another script
 
 ## Use Bmbgk in bash
 ```bash
-$ git clone https://github.com/jadijadi/re-lmgtfy.git
+$ git clone https://github.com/kiahamedi/re-lmgtfy.git
 $ cp re-lmgtfy/bashClient/bmbgk /usr/local/bin/
 $ bmbgk how to srite bash script?
 ```

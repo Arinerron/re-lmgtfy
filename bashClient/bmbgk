@@ -1,0 +1,5 @@
+#!/bin/bash 
+user_search=$*
+query='http://bmbgk.ir/?q='
+generate_search=$( echo "$user_search" | tr ' ' '+' )
+echo "Your Link: " $query$generate_search
